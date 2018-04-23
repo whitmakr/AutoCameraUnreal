@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HowTo_AutoCamera.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{4329DA88-F734-44EC-9EFE-5CBA5F899BB2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HowTo_AutoCamera.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HowTo_AutoCameraEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{C1C1AEE2-3D20-4253-AFA4-89ECF2313598}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\HowTo_AutoCamera">
+      <UniqueIdentifier>{DAD58896-9005-428A-99B9-EA04174F2461}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HowTo_AutoCamera\HowTo_AutoCamera.Build.cs">
+      <Filter>Source\HowTo_AutoCamera</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HowTo_AutoCamera\HowTo_AutoCamera.cpp">
+      <Filter>Source\HowTo_AutoCamera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HowTo_AutoCamera\HowTo_AutoCamera.h">
+      <Filter>Source\HowTo_AutoCamera</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HowTo_AutoCamera\HowTo_AutoCameraGameModeBase.cpp">
+      <Filter>Source\HowTo_AutoCamera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HowTo_AutoCamera\HowTo_AutoCameraGameModeBase.h">
+      <Filter>Source\HowTo_AutoCamera</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\HowTo_AutoCamera\CameraDirector.h">
+      <Filter>Source\HowTo_AutoCamera</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\HowTo_AutoCamera\CameraDirector.cpp">
+      <Filter>Source\HowTo_AutoCamera</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
